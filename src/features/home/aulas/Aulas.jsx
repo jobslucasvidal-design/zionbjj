@@ -36,7 +36,7 @@ export default function Aulas() {
         <div className={styles.grid}>
           {classes.map((item, index) => (
             <div key={index} className={`${styles.card}`}>
-              <img src={item.image} alt={item.title} />
+              <img src={item.image} alt={item.title} width="600" height="400" />
 
               <div className={styles.overlay}></div>
 

@@ -1,8 +1,21 @@
 .hero {
   position: relative;
-  background: url(../../../assets/images/bg-intro.jpg) center/cover no-repeat;
+  overflow: hidden;
 }
 
+/* 🔥 nova imagem */
+.heroBg {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  z-index: -1;
+}
+
+/* 🔥 SEU OVERLAY (INALTERADO) */
 .hero::after {
   content: "";
   position: absolute;
