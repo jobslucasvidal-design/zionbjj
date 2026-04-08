@@ -1,9 +1,8 @@
-import styles from "./Contact.module.css";
-import ContactActions from "./data/ContactActions.jsx";
-import SectionHeader from "../../../components/sectionHeader/sectionHeader.jsx";
+import styles from './Contact.module.css';
+import ContactActions from './data/ContactActions.jsx';
+import SectionHeader from '../../../components/sectionHeader/sectionHeader.jsx';
 
 import Button from '../../../components/button/Button.jsx';
-
 
 export default function Contact() {
   return (
@@ -20,7 +19,6 @@ export default function Contact() {
 
         {/* 🔥 CARDS PRINCIPAIS */}
         <div className={styles.grid}>
-
           <div className={styles.card}>
             <span className={styles.icon}>📍</span>
             <h3>Endereço</h3>
@@ -38,7 +36,6 @@ export default function Contact() {
             <h3>Horários</h3>
             <p>Confira os horários das aulas</p>
           </a>
-
         </div>
 
         {/* 🔥 CTA PRINCIPAL */}
@@ -56,9 +53,18 @@ export default function Contact() {
 
         {/* 🔥 MAPA */}
         <div className={styles.map}>
+          <iframe
+            src="https://www.google.com/maps?q=São+Roque+SP&output=embed"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Mapa da academia"
+          ></iframe>
+
           <div className={styles.mapOverlay}></div>
         </div>
-
       </div>
     </section>
   );
