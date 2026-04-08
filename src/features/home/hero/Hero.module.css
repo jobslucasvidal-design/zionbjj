@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  background: url(../../../assets/images/bg-intro.png) center/cover no-repeat;
+  background: url(../../../assets/images/bg-intro.jpg) center/cover no-repeat;
 }
 
 .hero::after {

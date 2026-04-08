@@ -1,9 +1,9 @@
 import styles from './Aulas.module.css';
 import SectionHeader from '../../../components/sectionHeader/sectionHeader.jsx';
 
-import img1 from '../../../assets/images/women.png';
-import img2 from '../../../assets/images/adults.png';
-import img3 from '../../../assets/images/kids.png';
+import img1 from '../../../assets/images/women.jpg';
+import img2 from '../../../assets/images/adults.jpg';
+import img3 from '../../../assets/images/kids.jpg';
 
 const classes = [
   {
